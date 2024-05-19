@@ -85,5 +85,9 @@ columns 43-48 correspond to the sensors in unit 5 (LL).
 
 First we have to iterate over all directories and concatenate all of those *.txt* files into one data_all.csv file. This is done with <code>pd.concat()</code>. This process is done in a separate jupyter file ***collect_data.ipynb*** and stored the data in **data_all.csv**. 
 
+# File: experiments.ipynb
+In this file I have done the cluster analysis
 
+# File collect_data.ipynb
+This is the code how I merged all the data form the subfolders into one file.
 
